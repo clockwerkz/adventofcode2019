@@ -38,6 +38,7 @@ while (directionsToProcess) {
     distance1--;
     distance2--;
 } 
+console.log(direction1, direction2);
 console.log(closestIntersection);
 
 
