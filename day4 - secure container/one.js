@@ -1,3 +1,12 @@
-const calculateRange = require('./calulateRange');
+const validateNumber = require('./validateNumber');
 
-console.log(calculateRange(111));
+// console.log(validateNumber(112233));
+// console.log(validateNumber(123444));
+// console.log(validateNumber(111122));
+let total = 0;
+
+for (let i=168630; i<718098; i++) {
+    if (validateNumber(i)) total++;
+}
+
+console.log(total);
