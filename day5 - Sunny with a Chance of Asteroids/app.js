@@ -2,6 +2,8 @@
 const data = `1,1,1,4,99,5,6,0,99`.split(',').map(num => parseInt(num));
 console.log(data);
 
+//Adding a change to test commits on new PC
+
 let ptr = 0;
 while (ptr<data.length && data[ptr]!==99) {
     let mode = data[ptr];
